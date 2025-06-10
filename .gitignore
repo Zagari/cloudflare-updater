@@ -1,0 +1,14 @@
+# Arquivos de ambiente
+.env
+/updt-service/.env
+
+# Diretório do ambiente virtual Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db

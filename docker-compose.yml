@@ -1,0 +1,8 @@
+services:
+  updt-service:
+    build:
+     context: ./updt-service
+    env_file:
+      - ./updt-service/.env
+    container_name: cloudflare_updt_service
+    restart: always

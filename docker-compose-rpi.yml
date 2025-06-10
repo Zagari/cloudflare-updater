@@ -1,0 +1,7 @@
+services:
+  updt-service-rpi:
+    container_name: cloudflare_updt_service_rpi
+    image: cloudflare-updater-arm  # ou cloudflare-updater-amd
+    env_file:
+      - ./updt-service/.env
+    restart: always
