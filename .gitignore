@@ -2,6 +2,9 @@
 .env
 /updt-service/.env
 
+# Arquivos de Imagens Docker salvas
+*.tar
+
 # Diretório do ambiente virtual Python
 venv/
 __pycache__/
