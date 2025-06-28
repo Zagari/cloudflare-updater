@@ -1,6 +1,7 @@
 # Arquivos de ambiente
 .env
 /updt-service/.env
+local/
 
 # Arquivos de Imagens Docker salvas
 *.tar
