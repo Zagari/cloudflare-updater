@@ -15,8 +15,8 @@
 
 
 # Verificar se as variáveis de ambiente necessárias estão definidas
-if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ZONE_ID" ] || [ -z "$CLOUDFLARE_RECORD_ID" ] || [ -z "$CLOUDFLARE_RECORD_NAME" ]; then
-  echo "Erro: Variáveis de ambiente CLOUDFLARE_API_TOKEN, CLOUDFLARE_ZONE_ID, CLOUDFLARE_RECORD_ID e CLOUDFLARE_RECORD_NAME devem estar definidas."
+if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ZONE_ID" ] || [ -z "$CLOUDFLARE_RECORD_ID" ] || [ -z "$CLOUDFLARE_RECORD_NAME" ] || [ -z "$MINECRAFT_RECORD_ID" ]; then
+  echo "Erro: Variáveis de ambiente CLOUDFLARE_API_TOKEN, CLOUDFLARE_ZONE_ID, CLOUDFLARE_RECORD_ID e CLOUDFLARE_RECORD_NAME e MINECRAFT_RECORD_ID devem estar definidas."
   exit 1
 fi
 # Definir variáveis de ambiente
